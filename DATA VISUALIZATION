@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+events=["EventA","Event B","Event C","Event D"]
+years=[2000,2005,2010,2015]
+fig,ax=plt.subplots()
+ax.plot(years,events,marker='o',linestyle='-')
+ax.set_xlabel("years")
+ax.set_ylabel("events")
+ax.set_title("TIMELINE")
+plt.grid()
+plt.show()
